@@ -1,0 +1,11 @@
+- 👋 Hi, I’m @rupesh kumar
+- 👀 I’m interested in coding
+- 🌱 I’m currently learning in abes engineering college 
+- .my branch is cse 
+- 💞️ I’m looking to collaborate on
+- i am from bihar
+
+<!---
+rupesh77399/rupesh77399 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->

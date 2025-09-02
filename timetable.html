@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Class Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+    th, td {
+      border: 2px solid black; /* line ko mota kar diya */
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .lunch {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Class Timetable</h2>
+  <table>
+    <tr>
+      <th>Day / Time</th>
+      <th>08:50-09:40</th>
+      <th>09:40-10:30</th>
+      <th>10:40-11:30</th>
+      <th>11:30-12:20</th>
+      <th>12:20-1:10</th>
+      <th>1:10-2:00</th>
+      <th>2:00-2:50</th>
+      <th>2:50-3:40</th>
+      <th>3:40-4:30</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td colspan="3">DSA</td>
+      <!-- <td></td> -->
+      <td>BCS 502 {SYA}</td>
+      <td>BCS 501 {VS}</td>
+      <td rowspan="5" class="lunch">LUNCH</td>
+      <td>BCS055 {DK}</td>
+      <td colspan="2">AAI (Ms. Tanvi, Mr. Anurag)</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>BCS552 {SYA}</td>
+      <td>BCS 503 {VSI}</td>
+      <td>SS {MB}</td>
+      <td colspan="2">FSD {DR}</td>
+      <td>BCS054 {SR}</td>
+      <td colspan="2">BCS552 {VSI, SA}</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>BCS 501 {VS}</td>
+      <td>BCS 502 {SYA}</td>
+      <td colspan="2">DOMAIN TRAINING</td>
+      <td>BCS055 {DK}</td>
+      <td>BCS 503 {VSI}</td>
+      <td colspan="2">BCS551 {VS, DKM}</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>FSD {DR}</td>
+      <td>BCS 502 {SYA}</td>
+      <td>BCS 501 {VS}</td>
+      <td>BCS 503 {VSI}</td>
+      <td>BCS054 {SR}</td>
+      <td colspan="3">QA/LR {HS}</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>BCS054 {SR}</td>
+      <td>BCS 501 {VS}</td>
+      <td>BCS055 {DK}</td>
+      <td>BCS 502 {SYA, IM}</td>
+      <td>BCS 503 {VSI}</td>
+      <td colspan="3">DSA</td>
+    </tr>
+  </table>
+</body>
+</html>
